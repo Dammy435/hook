@@ -2,7 +2,7 @@ import React from 'react';
 
 const Filter = ({ setTitle, setRating }) => {
     return (
-        <div style={{ marginBottom: 20 }}>
+        <div className="filter">
             <input
                 type="text"
                 placeholder="Filter by title..."
